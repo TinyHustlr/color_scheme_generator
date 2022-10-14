@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+#container {
+    width: 550px;
+    height: 550px;
+    background-color: #FFFDFE;
+}
+
+header {
+    width: 550px;
+    height: 90px;
+    background-color: #1F2937;
+}
+
+footer {
+        position: absolute;
+        left: 0px;
+        top: 504px;
+        width: 550px;
+        height: 46px;
+        background-color: #1F2937;
+}
+
+#color-one{
+    position: absolute;
+    width: 110px;
+    height: 414px;
+    left: 0px;
+    top: 90px;
+    background-color: #F55A5A;
+}
+
+#color-two {
+position: absolute;
+width: 110px;
+height: 414px;
+left: 110px;
+top: 90px;
+background-color: #2B283A;
+}
+
+#color-three {
+    position: absolute;
+    width: 110px;
+    height: 414px;
+    left: 220px;
+    top: 90px;
+    background-color: #FBF3AB;
+}
+
+#color-four {
+    position: absolute;
+    width: 110px;
+    height: 414px;
+    left: 330px;
+    top: 90px;
+    background-color: #AAD1B6;
+}
+
+#color-five {
+    position: absolute;
+    width: 110px;
+    height: 414px;
+    left: 440px;
+    top: 90px;
+    background-color: #A626D3;
+}
+
+#color-picker {
+position: absolute;
+width: 51px;
+height: 34px;
+left: 19px;
+top: 28px;
+border: 0.5px solid #313131;
+border-radius: 6px;
+cursor: pointer;
+}
+
+#schemes {
+position: absolute;
+width: 312px;
+height: 42px;
+left: 87px;
+top: 24px;
+background: #1F293A;
+border: 1px solid #D1D5DB;
+border-radius: 6px;
+cursor: pointer;
+color: #FFFFFF
+}
+
+#get-scheme-btn {
+position: absolute;
+width: 123px;
+height: 42px;
+left: 412px;
+top: 24px;
+background: #3D4B60;
+border: none;
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 4px;
+color: #FFFFFF;
+cursor: pointer;
+}
+
+#hex-one {
+position: absolute;
+width: 54px;
+height: 24px;
+left: 28px;
+top: 515px;
+text-align: center;
+color: #D5D4D8;
+}
+
+#hex-two {
+position: absolute;
+width: 54px;
+height: 24px;
+left: 138px;
+top: 515px;
+text-align: center;
+color: #D5D4D8;
+}
+
+#hex-three {
+    position: absolute;
+    width: 54px;
+    height: 24px;
+    left: 248px;
+    top: 515px;
+    text-align: center;
+    color: #D5D4D8;
+}
+
+#hex-four {
+    position: absolute;
+    width: 54px;
+    height: 24px;
+    left: 358px;
+    top: 515px;
+    text-align: center;
+    color: #D5D4D8;
+}
+
+#hex-five {
+    position: absolute;
+    width: 54px;
+    height: 24px;
+    left: 467px;
+    top: 515px;
+    text-align: center;
+    color: #D5D4D8;
+}

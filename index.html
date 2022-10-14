@@ -8,7 +8,33 @@
     <title>Color Scheme Generator</title>
 </head>
 <body>
-    <h1 id="title">Color Scheme Generator</h1>
+    <div id="container">
+        <header></header>
+        <input type="color" id="color-picker" />
+        <div id="color-one"></div>
+        <div id="color-two"></div>
+        <div id="color-three"></div>
+        <div id="color-four"></div>
+        <div id="color-five"></div>
+        <select name="schemes" id="schemes">
+            <option value="monochrome">monochrome</option>
+            <option value="monochrome-dark">monochrome dark</option>
+            <option value="monochrome-light">monochrome light</option>
+            <option value="analogic">analogic</option>
+            <option value="complement">complement</option>
+            <option value="analogic-complement">analogic complement</option>
+            <option value="triad">triad</option>
+            <option value="quad">quad</option>
+        </select>
+        <button id="get-scheme-btn">Get color scheme</button>
+        <footer></footer>
+        <div id="hex-one"></div>
+        <div id="hex-two">FFFFFF</div>
+        <div id="hex-three">FFFFFF</div>
+        <div id="hex-four">FFFFFF</div>
+        <div id="hex-five">FFFFFF</div>
+    </div>
+
 </body>
 <script src="./index.js"></script>
 </html>

@@ -1,3 +1,13 @@
+const colorPicker = document.querySelector("#color-picker")
+const hexOne = document.querySelector("#hex-one")
+const schemeBtn = document.querySelector("#get-scheme-btn")
+
+schemeBtn.addEventListener("click", getColors() {
+    // hexOne.textContent = colorPicker.value
+})
+
+
+
 // Scheme = get color scheme. Mode=color types such as monochome and count is number of colors
 fetch("https://www.thecolorapi.com/scheme?hex=24B1E0&mode=monochrome&count=4") 
     .then(response => response.json())
