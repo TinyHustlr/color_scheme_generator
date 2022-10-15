@@ -1,5 +1,6 @@
 // Color picker and buttons
 const colorPicker = document.querySelector("#color-picker")
+const schemes = document.querySelector("#schemes")
 const schemeBtn = document.querySelector("#get-scheme-btn")
 
 // Background colors
@@ -22,6 +23,7 @@ schemeBtn.addEventListener("click", getColors => {
     // Hex value of color selected with and without hash at the beginning
     let colorPickerValue = colorPicker.value
     let colorPickerValueNoHash = colorPickerValue.substring(1)
+    let schemeType = schemes.value
 
     // Update main color swatch backgorund
     colorOne.style.background = colorPickerValue
@@ -30,7 +32,7 @@ schemeBtn.addEventListener("click", getColors => {
     hexOne.textContent = colorPickerValue
    
     // // Scheme = get color scheme. Mode=color types such as monochome and count is number of colors
-    fetch(`https://www.thecolorapi.com/scheme?hex=${colorPickerValueNoHash}&mode=monochrome&count=5`) 
+    fetch(`https://www.thecolorapi.com/scheme?hex=${colorPickerValueNoHash}&mode=${schemeType}&count=5`) 
     .then(response => response.json())
     .then(data => {
         // Update color scheme swatches
