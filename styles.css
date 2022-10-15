@@ -38,12 +38,12 @@ footer {
 }
 
 #color-two {
-position: absolute;
-width: 110px;
-height: 414px;
-left: 110px;
-top: 90px;
-background-color: #2B283A;
+    position: absolute;
+    width: 110px;
+    height: 414px;
+    left: 110px;
+    top: 90px;
+    background-color: #2B283A;
 }
 
 #color-three {
