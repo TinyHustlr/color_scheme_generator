@@ -50,3 +50,53 @@ schemeBtn.addEventListener("click", getColors => {
     })
 
 })
+
+hexOne.addEventListener("click", copied => {
+    navigator.clipboard.writeText(hexOne.innerHTML)
+    alert("Copied the hex value: " + hexOne.innerHTML)
+})
+
+hexTwo.addEventListener("click", copied => {
+    navigator.clipboard.writeText(hexTwo.innerHTML)
+    alert("Copied the hex value: " + hexTwo.innerHTML)
+})
+
+hexThree.addEventListener("click", copied => {
+    navigator.clipboard.writeText(hexThree.innerHTML)
+    alert("Copied the hex value: " + hexThree.innerHTML)
+})
+
+hexFour.addEventListener("click", copied => {
+    navigator.clipboard.writeText(hexFour.innerHTML)
+    alert("Copied the hex value: " + hexFour.innerHTML)
+})
+
+hexFive.addEventListener("click", copied => {
+    navigator.clipboard.writeText(hexFive.innerHTML)
+    alert("Copied the hex value: " + hexFive.innerHTML)
+})
+
+colorOne.addEventListener("click", copied => {
+    navigator.clipboard.writeText(hexOne.innerHTML)
+    alert("Copied the hex value: " + hexOne.innerHTML)
+})
+
+colorTwo.addEventListener("click", copied => {
+    navigator.clipboard.writeText(hexTwo.innerHTML)
+    alert("Copied the hex value: " + hexTwo.innerHTML)
+})
+
+colorThree.addEventListener("click", copied => {
+    navigator.clipboard.writeText(hexThree.innerHTML)
+    alert("Copied the hex value: " + hexThree.innerHTML)
+})
+
+colorFour.addEventListener("click", copied => {
+    navigator.clipboard.writeText(hexFour.innerHTML)
+    alert("Copied the hex value: " + hexFour.innerHTML)
+})
+
+colorFive.addEventListener("click", copied => {
+    navigator.clipboard.writeText(hexFive.innerHTML)
+    alert("Copied the hex value: " + hexFive.innerHTML)
+})
